@@ -4,6 +4,7 @@ import { dimensionsPropsType } from "../Utils/utils";
 import "./Chart.css"
 
 const ChartContext = createContext()
+const api = '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'
 export const useDimensionsContext = () => useContext(ChartContext)
 
 const Chart = ({ dimensions, children }) => (
