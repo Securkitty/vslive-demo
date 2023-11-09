@@ -43,7 +43,7 @@ export const combineChartDimensions = dimensions => {
 export const useChartDimensions = passedSettings => {
   const ref = useRef()
   const dimensions = combineChartDimensions(passedSettings)
-
+  const api = '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'
   const [width, changeWidth] = useState(0)
   const [height, changeHeight] = useState(0)
 
